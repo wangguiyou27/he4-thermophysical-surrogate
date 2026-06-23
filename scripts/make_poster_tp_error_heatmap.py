@@ -13,9 +13,9 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PKG = ROOT / "paper_outputs" / "he4_2p2_hybrid_paper"
+PKG = ROOT / "results" / "he4_single_phase_surrogate"
 TABLES = PKG / "tables"
-OUT = PKG / "poster_figures_tp_error"
+OUT = PKG / "figures" / "error_maps"
 
 
 def setup_style() -> None:

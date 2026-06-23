@@ -141,7 +141,7 @@ def main():
     parser.add_argument("--refprop-run", default="runs/refprop_ann_benchmark_large")
     parser.add_argument("--baseline-run", default="runs/baseline_comparison_full")
     parser.add_argument("--config", default="configs/he4_single_phase.json")
-    parser.add_argument("--out", default="paper_outputs/final_he4_single_phase")
+    parser.add_argument("--out", default="results/final_he4_single_phase")
     args = parser.parse_args()
 
     best_run = Path(args.best_run)

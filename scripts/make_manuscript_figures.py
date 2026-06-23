@@ -12,9 +12,9 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PKG = ROOT / "paper_outputs" / "he4_2p2_hybrid_paper"
+PKG = ROOT / "results" / "he4_single_phase_surrogate"
 TABLES = PKG / "tables"
-OUT = PKG / "figures_sci"
+OUT = PKG / "figures" / "manuscript"
 
 
 COLORS = {
@@ -118,7 +118,7 @@ def make_dataset_phase_map() -> None:
     ax.set_ylabel("Pressure, P (MPa)")
     ax.legend(frameon=False, loc="upper right", markerscale=3.2, handletextpad=0.2)
     clean_axes(ax)
-    save(fig, "fig1_dataset_phase_map_sci")
+    save(fig, "fig1_dataset_phase_map_manuscript")
 
 
 def make_workflow() -> None:
@@ -158,7 +158,7 @@ def make_workflow() -> None:
         fontsize=7.6,
         color="#374151",
     )
-    save(fig, "fig2_model_workflow_sci")
+    save(fig, "fig2_model_workflow_manuscript")
 
 
 def make_property_metrics() -> None:
@@ -182,7 +182,7 @@ def make_property_metrics() -> None:
     axes[0].set_yticks(y)
     axes[0].set_yticklabels(df["property"])
     axes[0].invert_yaxis()
-    save(fig, "fig3_per_property_errors_sci")
+    save(fig, "fig3_per_property_errors_manuscript")
 
     fig, ax1 = plt.subplots(figsize=(4.6, 2.8))
     x = np.arange(len(df))
@@ -201,7 +201,7 @@ def make_property_metrics() -> None:
     lines, labels = ax1.get_legend_handles_labels()
     lines2, labels2 = ax2.get_legend_handles_labels()
     ax1.legend(lines + lines2, labels + labels2, frameon=False, loc="lower left", ncol=1)
-    save(fig, "fig3_r2_thresholds_sci")
+    save(fig, "fig3_r2_thresholds_manuscript")
 
 
 def heatmap_grid(df: pd.DataFrame, value_col: str, t_bins: np.ndarray, p_bins: np.ndarray) -> np.ndarray:
@@ -233,7 +233,7 @@ def make_error_heatmaps() -> None:
         cb.set_label("Mean bin error (%)")
     add_panel_label(axes[0], "a")
     add_panel_label(axes[1], "b")
-    save(fig, "fig4_hybrid_error_heatmaps_sci")
+    save(fig, "fig4_hybrid_error_heatmaps_manuscript")
 
 
 def make_hybrid_comparison() -> None:
@@ -270,7 +270,7 @@ def make_hybrid_comparison() -> None:
     clean_axes(axes[1])
     add_panel_label(axes[0], "a")
     add_panel_label(axes[1], "b")
-    save(fig, "fig5_ann_hybrid_comparison_sci")
+    save(fig, "fig5_ann_hybrid_comparison_manuscript")
 
 
 def make_baseline_comparison() -> None:
@@ -302,7 +302,7 @@ def make_baseline_comparison() -> None:
     axes[0].set_yticks(y)
     axes[0].set_yticklabels(df["model"])
     axes[0].invert_yaxis()
-    save(fig, "fig6_baseline_comparison_sci")
+    save(fig, "fig6_baseline_comparison_manuscript")
 
 
 def make_speed_benchmark() -> None:
@@ -327,20 +327,20 @@ def make_speed_benchmark() -> None:
     clean_axes(axes[1])
     add_panel_label(axes[0], "a")
     add_panel_label(axes[1], "b")
-    save(fig, "fig7_speed_benchmark_sci")
+    save(fig, "fig7_speed_benchmark_manuscript")
 
 
 def write_index() -> None:
     files = sorted(OUT.glob("*.svg"))
     lines = [
-        "# SCI-style figures",
+        "# Manuscript figures",
         "",
         "All figures are exported as both high-resolution PNG and editable SVG.",
         "",
     ]
     for path in files:
         lines.append(f"- `{path.name}`")
-    (OUT / "README_figures_sci.md").write_text("\n".join(lines), encoding="utf-8")
+    (OUT / "README_manuscript_figures.md").write_text("\n".join(lines), encoding="utf-8")
 
 
 def main() -> None:
@@ -353,7 +353,7 @@ def main() -> None:
     make_baseline_comparison()
     make_speed_benchmark()
     write_index()
-    print(f"Saved SCI-style figures to {OUT}")
+    print(f"Saved manuscript figures to {OUT}")
 
 
 if __name__ == "__main__":

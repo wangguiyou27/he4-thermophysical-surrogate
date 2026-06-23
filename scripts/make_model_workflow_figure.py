@@ -53,7 +53,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--out",
-        default="paper_outputs/he4_2p2_hybrid_paper/figures/fig_2_model_workflow.png",
+        default="results/he4_single_phase_surrogate/figures/poster/fig_2_model_workflow.png",
     )
     args = parser.parse_args()
     out = Path(args.out)

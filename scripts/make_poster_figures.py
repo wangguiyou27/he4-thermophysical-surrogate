@@ -14,9 +14,9 @@ from matplotlib.patches import FancyBboxPatch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-PKG = ROOT / "paper_outputs" / "he4_2p2_hybrid_paper"
+PKG = ROOT / "results" / "he4_single_phase_surrogate"
 TABLES = PKG / "tables"
-OUT = PKG / "poster_figures"
+OUT = PKG / "figures" / "poster"
 
 BLUE = "#1f4e79"
 BLUE2 = "#5b8db8"
@@ -445,7 +445,7 @@ def write_readme() -> None:
     lines = [
         "# Poster Figures",
         "",
-        "Generated according to the handoff requirements for a 0.9 m x 1.5 m vertical international conference poster.",
+        "Generated for a 0.9 m x 1.5 m vertical international conference poster.",
         "Each figure is exported as PDF, SVG, and 300 dpi PNG.",
         "",
     ]

@@ -297,7 +297,7 @@ def write_pptx(slides, out_path: Path):
 
 
 def build_slides(root: Path):
-    fig = root / "paper_outputs" / "final_he4_single_phase" / "figures"
+    fig = root / "results" / "final_he4_single_phase" / "figures"
     slides = []
 
     s = Slide("面向低温工程计算的氦4单相热物性神经网络代理模型", "组会汇报 | REFPROP 数据集、多物性 ANN、速度与基线对比")
@@ -395,7 +395,7 @@ def build_slides(root: Path):
 def main():
     root = Path(__file__).resolve().parents[1]
     slides = build_slides(root)
-    out = root / "paper_outputs" / "final_he4_single_phase" / "group_meeting_he4_ann_report.pptx"
+    out = root / "results" / "final_he4_single_phase" / "group_meeting_he4_ann_report.pptx"
     write_pptx(slides, out)
     print(f"Saved PPTX to: {out}")
     shutil.copy2(out, root / "group_meeting_he4_ann_report.pptx")

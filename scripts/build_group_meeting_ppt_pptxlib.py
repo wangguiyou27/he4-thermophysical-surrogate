@@ -88,7 +88,7 @@ def build(root: Path):
     prs = Presentation()
     prs.slide_width = Inches(WIDE[0])
     prs.slide_height = Inches(WIDE[1])
-    fig = root / "paper_outputs" / "final_he4_single_phase" / "figures"
+    fig = root / "results" / "final_he4_single_phase" / "figures"
 
     s = blank_slide(prs, "面向低温工程计算的氦4单相热物性神经网络代理模型", "组会汇报 | REFPROP 数据集、多物性 ANN、速度与基线对比")
     add_text(s, 0.7, 1.45, 7.2, 1.4, "研究目标：建立一个可替代 REFPROP 高频调用的高精度、快速、可部署物性代理模型", 24, bold=True)
@@ -162,7 +162,7 @@ def build(root: Path):
 
 def main():
     root = Path(__file__).resolve().parents[1]
-    out = root / "paper_outputs" / "final_he4_single_phase" / "group_meeting_he4_ann_report_standard.pptx"
+    out = root / "results" / "final_he4_single_phase" / "group_meeting_he4_ann_report_standard.pptx"
     prs = build(root)
     prs.save(out)
     shutil.copy2(out, root / "group_meeting_he4_ann_report_standard.pptx")

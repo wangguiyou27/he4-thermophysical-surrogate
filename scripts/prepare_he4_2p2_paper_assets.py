@@ -504,7 +504,7 @@ def main() -> None:
     parser.add_argument("--speed-run", default="runs/critical_feature_hybrid_refprop_benchmark_v8")
     parser.add_argument("--baseline-run", default="runs/baseline_comparison_full")
     parser.add_argument("--config", default="configs/he4_single_phase_extended_2p2_phaseaware_critical_features.json")
-    parser.add_argument("--out", default="paper_outputs/he4_2p2_hybrid_paper")
+    parser.add_argument("--out", default="results/he4_single_phase_surrogate")
     args = parser.parse_args()
 
     out = Path(args.out)

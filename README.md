@@ -40,7 +40,7 @@ configs/        Experiment configuration files
 src/            Reusable model and training utilities
 scripts/        Data generation, training, evaluation, benchmark, and plotting scripts
 runs/           Selected final metrics and benchmark outputs
-paper_outputs/  Final tables, manuscript notes, poster figures, and SCI-style figures
+results/        Final tables, manuscript notes, poster figures, and manuscript figures
 data/           Data note and optional small samples only
 ```
 
@@ -55,16 +55,17 @@ The full REFPROP-generated CSV datasets and trained model weights are intentiona
 Final publication/poster material:
 
 ```text
-paper_outputs/he4_2p2_hybrid_paper/
+results/he4_single_phase_surrogate/
 ```
 
 Important subfolders:
 
 ```text
-figures_sci/              SCI-style figures, PNG and SVG
-poster_figures/           conference poster figures, PNG/SVG/PDF
-poster_figures_tp_error/  T-P hybrid error heatmaps, PNG/SVG/PDF
-tables/                   final result tables
+figures/manuscript/  manuscript-style figures, PNG and SVG
+figures/poster/      conference poster figures, PNG/SVG/PDF
+figures/error_maps/  T-P hybrid error heatmaps, PNG/SVG/PDF
+tables/              final result tables
+docs/                result manifest and draft writing notes
 ```
 
 Selected final metrics:
@@ -100,7 +101,7 @@ python scripts/evaluate_grid_hybrid.py --config configs/he4_single_phase_extende
 Regenerate poster figures:
 
 ```powershell
-python scripts/make_poster_figures_from_handoff.py
+python scripts/make_poster_figures.py
 python scripts/make_poster_tp_error_heatmap.py
 ```
 
