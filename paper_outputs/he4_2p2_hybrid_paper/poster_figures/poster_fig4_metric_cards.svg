@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="360.36pt" height="311.98325pt" viewBox="0 0 360.36 311.98325" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-14T21:43:11.099178</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 311.98325 
+L 360.36 311.98325 
+L 360.36 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 33.147 155.76053 
+L 164.6118 155.76053 
+Q 176.7204 155.76053 176.7204 146.44661 
+L 176.7204 101.20757 
+Q 176.7204 91.89365 164.6118 91.89365 
+L 33.147 91.89365 
+Q 21.0384 91.89365 21.0384 101.20757 
+L 21.0384 146.44661 
+Q 21.0384 155.76053 33.147 155.76053 
+z
+" clip-path="url(#p084a073148)" style="fill: #eef5ff; stroke: #1f4e79; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 195.7482 155.76053 
+L 327.213 155.76053 
+Q 339.3216 155.76053 339.3216 146.44661 
+L 339.3216 101.20757 
+Q 339.3216 91.89365 327.213 91.89365 
+L 195.7482 91.89365 
+Q 183.6396 91.89365 183.6396 101.20757 
+L 183.6396 146.44661 
+Q 183.6396 155.76053 195.7482 155.76053 
+z
+" clip-path="url(#p084a073148)" style="fill: #fff7e6; stroke: #d9892b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 33.147 227.61077 
+L 164.6118 227.61077 
+Q 176.7204 227.61077 176.7204 218.29685 
+L 176.7204 173.05781 
+Q 176.7204 163.74389 164.6118 163.74389 
+L 33.147 163.74389 
+Q 21.0384 163.74389 21.0384 173.05781 
+L 21.0384 218.29685 
+Q 21.0384 227.61077 33.147 227.61077 
+z
+" clip-path="url(#p084a073148)" style="fill: #fff0f0; stroke: #b84a4a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 195.7482 227.61077 
+L 327.213 227.61077 
+Q 339.3216 227.61077 339.3216 218.29685 
+L 339.3216 173.05781 
+Q 339.3216 163.74389 327.213 163.74389 
+L 195.7482 163.74389 
+Q 183.6396 163.74389 183.6396 173.05781 
+L 183.6396 218.29685 
+Q 183.6396 227.61077 195.7482 227.61077 
+z
+" clip-path="url(#p084a073148)" style="fill: #eef8f1; stroke: #4c8b5a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 114.4476 299.46101 
+L 245.9124 299.46101 
+Q 258.021 299.46101 258.021 290.14709 
+L 258.021 244.90805 
+Q 258.021 235.59413 245.9124 235.59413 
+L 114.4476 235.59413 
+Q 102.339 235.59413 102.339 244.90805 
+L 102.339 290.14709 
+Q 102.339 299.46101 114.4476 299.46101 
+z
+" clip-path="url(#p084a073148)" style="fill: #f4f0ff; stroke: #7463a8; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #0f172a; font: 700 27px 'Arial'; text-anchor: middle" x="98.8794" y="124.173196" transform="rotate(-0 98.8794 124.173196)">0.1307%</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #4b5563; font: 16px 'Arial'; text-anchor: middle" x="98.8794" y="140.736716" transform="rotate(-0 98.8794 140.736716)">MAPE</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #0f172a; font: 700 27px 'Arial'; text-anchor: middle" x="261.4806" y="124.173196" transform="rotate(-0 261.4806 124.173196)">0.9414%</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #4b5563; font: 16px 'Arial'; text-anchor: middle" x="261.4806" y="140.736716" transform="rotate(-0 261.4806 140.736716)">P99 error</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #0f172a; font: 700 27px 'Arial'; text-anchor: middle" x="98.8794" y="196.023436" transform="rotate(-0 98.8794 196.023436)">4.6514%</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #4b5563; font: 16px 'Arial'; text-anchor: middle" x="98.8794" y="212.586956" transform="rotate(-0 98.8794 212.586956)">Max error</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #0f172a; font: 700 27px 'Arial'; text-anchor: middle" x="261.4806" y="196.023436" transform="rotate(-0 261.4806 196.023436)">100%</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #4b5563; font: 16px 'Arial'; text-anchor: middle" x="261.4806" y="212.586956" transform="rotate(-0 261.4806 212.586956)">Within 5%</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #0f172a; font: 700 27px 'Arial'; text-anchor: middle" x="180.18" y="267.873676" transform="rotate(-0 180.18 267.873676)">17.45×</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #4b5563; font: 16px 'Arial'; text-anchor: middle" x="180.18" y="284.539696" transform="rotate(-0 180.18 284.539696)">Speedup vs REFPROP</text>
+   </g>
+   <g id="text_11">
+    <text style="font: 700 24px 'Arial'; text-anchor: middle" x="180.18" y="24.67125" transform="rotate(-0 180.18 24.67125)">Hybrid model performance</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p084a073148">
+   <rect x="7.2" y="38.67125" width="345.96" height="266.112"/>
+  </clipPath>
+ </defs>
+</svg>

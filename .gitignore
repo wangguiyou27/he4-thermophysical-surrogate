@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large generated data and trained artifacts
+data/*.csv
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# Large all-point error tables
+paper_outputs/**/table_3_hybrid_all_point_errors.csv
+paper_outputs/**/table_3_ann_all_point_errors.csv
+
+# Presentations and temporary files
+*.pptx
+*.tmp
+*.log
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+

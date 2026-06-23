@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="438.891172pt" height="315.17125pt" viewBox="0 0 438.891172 315.17125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-14T21:43:12.282870</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 315.17125 
+L 438.891172 315.17125 
+L 438.891172 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 54.541875 286.15125 
+L 389.341875 286.15125 
+L 389.341875 36.67125 
+L 54.541875 36.67125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m2d21a69859" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000"/>
+      </defs>
+      <g>
+       <use xlink:href="#m2d21a69859" x="103.971473" y="286.15125" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 16px 'Arial'; text-anchor: middle" x="103.971473" y="304.60375" transform="rotate(-0 103.971473 304.60375)">REFPROP</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m2d21a69859" x="221.941875" y="286.15125" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 16px 'Arial'; text-anchor: middle" x="221.941875" y="304.60375" transform="rotate(-0 221.941875 304.60375)">ANN</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m2d21a69859" x="339.912277" y="286.15125" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 16px 'Arial'; text-anchor: middle" x="339.912277" y="304.60375" transform="rotate(-0 339.912277 304.60375)">Local hybrid</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 54.541875 286.15125 
+L 389.341875 286.15125 
+" clip-path="url(#p5221d60f0d)" style="fill: none; stroke: #d6dce5; stroke-opacity: 0.7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <defs>
+       <path id="mb0a0534d07" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000"/>
+      </defs>
+      <g>
+       <use xlink:href="#mb0a0534d07" x="54.541875" y="286.15125" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 16px 'Arial'; text-anchor: end" x="47.541875" y="291.8775" transform="rotate(-0 47.541875 291.8775)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 54.541875 226.75125 
+L 389.341875 226.75125 
+" clip-path="url(#p5221d60f0d)" style="fill: none; stroke: #d6dce5; stroke-opacity: 0.7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mb0a0534d07" x="54.541875" y="226.75125" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 16px 'Arial'; text-anchor: end" x="47.541875" y="232.4775" transform="rotate(-0 47.541875 232.4775)">5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 54.541875 167.35125 
+L 389.341875 167.35125 
+" clip-path="url(#p5221d60f0d)" style="fill: none; stroke: #d6dce5; stroke-opacity: 0.7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mb0a0534d07" x="54.541875" y="167.35125" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font: 16px 'Arial'; text-anchor: end" x="47.541875" y="173.0775" transform="rotate(-0 47.541875 173.0775)">10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 54.541875 107.95125 
+L 389.341875 107.95125 
+" clip-path="url(#p5221d60f0d)" style="fill: none; stroke: #d6dce5; stroke-opacity: 0.7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mb0a0534d07" x="54.541875" y="107.95125" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 16px 'Arial'; text-anchor: end" x="47.541875" y="113.6775" transform="rotate(-0 47.541875 113.6775)">15</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 54.541875 48.55125 
+L 389.341875 48.55125 
+" clip-path="url(#p5221d60f0d)" style="fill: none; stroke: #d6dce5; stroke-opacity: 0.7; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mb0a0534d07" x="54.541875" y="48.55125" style="stroke: #000000"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 16px 'Arial'; text-anchor: end" x="47.541875" y="54.2775" transform="rotate(-0 47.541875 54.2775)">20</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font: 20px 'Arial'; text-anchor: middle" x="21.771875" y="161.41125" transform="rotate(-90 21.771875 161.41125)">Speedup relative to REFPROP / ×</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 69.760057 286.15125 
+L 138.18289 286.15125 
+L 138.18289 274.27125 
+L 69.760057 274.27125 
+z
+" clip-path="url(#p5221d60f0d)" style="fill: #4b5563"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 187.730459 286.15125 
+L 256.153291 286.15125 
+L 256.153291 69.57885 
+L 187.730459 69.57885 
+z
+" clip-path="url(#p5221d60f0d)" style="fill: #5b8db8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 305.70086 286.15125 
+L 374.123693 286.15125 
+L 374.123693 78.84525 
+L 305.70086 78.84525 
+z
+" clip-path="url(#p5221d60f0d)" style="fill: #d9892b"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 54.541875 286.15125 
+L 54.541875 36.67125 
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 54.541875 286.15125 
+L 389.341875 286.15125 
+" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font: 700 19px 'Arial'; text-anchor: middle" x="103.971473" y="267.14325" transform="rotate(-0 103.971473 267.14325)">1×</text>
+   </g>
+   <g id="text_11">
+    <text style="font: 700 19px 'Arial'; text-anchor: middle" x="221.941875" y="62.45085" transform="rotate(-0 221.941875 62.45085)">18.23×</text>
+   </g>
+   <g id="text_12">
+    <text style="font: 700 19px 'Arial'; text-anchor: middle" x="339.912277" y="71.71725" transform="rotate(-0 339.912277 71.71725)">17.45×</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #4b5563; font: 14.5px 'Arial'; text-anchor: middle" x="221.941875" y="271.18245" transform="rotate(-0 221.941875 271.18245)">Hybrid retains 17.45× speedup with only 4.5% slowdown vs ANN.</text>
+   </g>
+   <g id="text_14">
+    <text style="font: 700 24px 'Arial'; text-anchor: middle" x="221.941875" y="24.67125" transform="rotate(-0 221.941875 24.67125)">Computational speedup</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5221d60f0d">
+   <rect x="54.541875" y="36.67125" width="334.8" height="249.48"/>
+  </clipPath>
+ </defs>
+</svg>

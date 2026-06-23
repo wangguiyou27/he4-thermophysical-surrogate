@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="545.145pt" height="491.39125pt" viewBox="0 0 545.145 491.39125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-14T21:43:10.278942</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 491.39125 
+L 545.145 491.39125 
+L 545.145 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 171.27318 137.35861 
+L 373.87182 137.35861 
+Q 381.96282 137.35861 381.96282 126.27061 
+L 381.96282 85.91029 
+Q 381.96282 74.82229 373.87182 74.82229 
+L 171.27318 74.82229 
+Q 163.18218 74.82229 163.18218 85.91029 
+L 163.18218 126.27061 
+Q 163.18218 137.35861 171.27318 137.35861 
+z
+" clip-path="url(#pa5af9dce7b)" style="fill: #eef5ff; stroke: #1f4e79; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 171.27318 194.12917 
+L 373.87182 194.12917 
+Q 381.96282 194.12917 381.96282 183.04117 
+L 381.96282 142.68085 
+Q 381.96282 131.59285 373.87182 131.59285 
+L 171.27318 131.59285 
+Q 163.18218 131.59285 163.18218 142.68085 
+L 163.18218 183.04117 
+Q 163.18218 194.12917 171.27318 194.12917 
+z
+" clip-path="url(#pa5af9dce7b)" style="fill: #eef8f1; stroke: #4c8b5a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 171.27318 250.89973 
+L 373.87182 250.89973 
+Q 381.96282 250.89973 381.96282 239.81173 
+L 381.96282 199.45141 
+Q 381.96282 188.36341 373.87182 188.36341 
+L 171.27318 188.36341 
+Q 163.18218 188.36341 163.18218 199.45141 
+L 163.18218 239.81173 
+Q 163.18218 250.89973 171.27318 250.89973 
+z
+" clip-path="url(#pa5af9dce7b)" style="fill: #fff7e6; stroke: #d9892b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 171.27318 307.67029 
+L 373.87182 307.67029 
+Q 381.96282 307.67029 381.96282 296.58229 
+L 381.96282 256.22197 
+Q 381.96282 245.13397 373.87182 245.13397 
+L 171.27318 245.13397 
+Q 163.18218 245.13397 163.18218 256.22197 
+L 163.18218 296.58229 
+Q 163.18218 307.67029 171.27318 307.67029 
+z
+" clip-path="url(#pa5af9dce7b)" style="fill: #f4f0ff; stroke: #7463a8; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 171.27318 364.44085 
+L 373.87182 364.44085 
+Q 381.96282 364.44085 381.96282 353.35285 
+L 381.96282 312.99253 
+Q 381.96282 301.90453 373.87182 301.90453 
+L 171.27318 301.90453 
+Q 163.18218 301.90453 163.18218 312.99253 
+L 163.18218 353.35285 
+Q 163.18218 364.44085 171.27318 364.44085 
+z
+" clip-path="url(#pa5af9dce7b)" style="fill: #fff0f0; stroke: #b84a4a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 171.27318 421.21141 
+L 373.87182 421.21141 
+Q 381.96282 421.21141 381.96282 410.12341 
+L 381.96282 369.76309 
+Q 381.96282 358.67509 373.87182 358.67509 
+L 171.27318 358.67509 
+Q 163.18218 358.67509 163.18218 369.76309 
+L 163.18218 410.12341 
+Q 163.18218 421.21141 171.27318 421.21141 
+z
+" clip-path="url(#pa5af9dce7b)" style="fill: #eef8f8; stroke: #397878; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 16px 'Arial'" transform="translate(233.9 101.67145)">REFPROP</text>
+    <text style="font: 16px 'Arial'" transform="translate(216.97625 118.59445)">data generation</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 272.5725 134.69749 
+Q 272.5725 134.91925 272.5725 133.463959 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 275.7725 127.063959 
+L 272.5725 133.463959 
+L 269.3725 127.063959 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font: 16px 'Arial'" transform="translate(225.87625 158.32876)">Single-phase</text>
+    <text style="font: 16px 'Arial'" transform="translate(246.785 175.67326)">filtering</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 272.5725 191.46805 
+Q 272.5725 191.68981 272.5725 190.234519 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 275.7725 183.834519 
+L 272.5725 190.234519 
+L 269.3725 183.834519 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font: 16px 'Arial'" transform="translate(209.87 206.84482)">Phase-aware and</text>
+    <text style="font: 16px 'Arial'" transform="translate(222.3375 223.76782)">critical-feature</text>
+    <text style="font: 16px 'Arial'" transform="translate(229.4425 240.69082)">construction</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 272.5725 248.23861 
+Q 272.5725 248.46037 272.5725 247.005079 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 275.7725 240.605079 
+L 272.5725 247.005079 
+L 269.3725 240.605079 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font: 16px 'Arial'" transform="translate(220.56 272.07688)">Critical-feature</text>
+    <text style="font: 16px 'Arial'" transform="translate(218.77375 288.99988)">ANN prediction</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 272.5725 305.00917 
+Q 272.5725 305.23093 272.5725 303.775639 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 275.7725 297.375639 
+L 272.5725 303.775639 
+L 269.3725 297.375639 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font: 16px 'Arial'" transform="translate(229.43875 328.75369)">Local hybrid</text>
+    <text style="font: 16px 'Arial'" transform="translate(237.45 345.86419)">correction</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 272.5725 361.77973 
+Q 272.5725 362.00149 272.5725 360.546199 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 275.7725 354.146199 
+L 272.5725 360.546199 
+L 269.3725 354.146199 
+" style="fill: none; stroke: #334155; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font: 16px 'Arial'" transform="translate(222.33 385.52425)">Eight-property</text>
+    <text style="font: 16px 'Arial'" transform="translate(246.3325 402.63475)">outputs</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #4b5563; font: 14px 'Arial'" transform="translate(34.457656 456.016338)">Phase information and critical features are introduced before ANN prediction;</text>
+    <text style="fill: #4b5563; font: 14px 'Arial'" transform="translate(101.005781 470.823962)">local hybrid correction suppresses high-error tail points.</text>
+   </g>
+   <g id="text_8">
+    <text style="font: 700 24px 'Arial'; text-anchor: middle" x="272.5725" y="24.67125" transform="rotate(-0 272.5725 24.67125)">Reliability-aware surrogate modeling workflow</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa5af9dce7b">
+   <rect x="110.7525" y="40.67125" width="323.64" height="443.52"/>
+  </clipPath>
+ </defs>
+</svg>

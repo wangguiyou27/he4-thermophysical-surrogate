@@ -1,0 +1,80 @@
+[
+  {
+    "name": "cold_liquid_zero",
+    "points": 117600,
+    "errors": 0,
+    "seconds": 9.1242459
+  },
+  {
+    "name": "near_critical_low_pressure",
+    "points": 109200,
+    "errors": 0,
+    "seconds": 8.475269399999998
+  },
+  {
+    "name": "critical_cp_peak_dense",
+    "points": 135200,
+    "errors": 0,
+    "seconds": 10.452250999999997
+  },
+  {
+    "name": "supercritical_critical_ridge",
+    "points": 92400,
+    "errors": 0,
+    "seconds": 7.0581286999999975
+  },
+  {
+    "name": "supercritical_entropy_zero",
+    "points": 187200,
+    "errors": 0,
+    "seconds": 14.195414699999994
+  },
+  {
+    "name": "very_low_density_gas",
+    "points": 93600,
+    "errors": 0,
+    "seconds": 7.0530788000000015
+  },
+  {
+    "name": "low_pressure_cold_vapor",
+    "points": 52800,
+    "errors": 0,
+    "seconds": 4.019269899999998
+  },
+  {
+    "name": "lambda_liquid_zero_enthalpy",
+    "points": 110400,
+    "errors": 0,
+    "seconds": 8.339815799999997
+  },
+  {
+    "name": "low_temperature_liquid_density_enthalpy",
+    "points": 41600,
+    "errors": 0,
+    "seconds": 3.146154899999999
+  },
+  {
+    "name": "near_tcrit_liquid_entropy",
+    "points": 57200,
+    "errors": 0,
+    "seconds": 4.386580600000002
+  },
+  {
+    "name": "lambda_low_pressure_liquid_density",
+    "points": 39600,
+    "errors": 0,
+    "seconds": 2.996706599999996
+  },
+  {
+    "name": "mid_temperature_low_pressure_liquid_enthalpy",
+    "points": 26400,
+    "errors": 0,
+    "seconds": 2.0111392000000023
+  },
+  {
+    "name": "high_temperature_pcrit_gas_density",
+    "points": 31200,
+    "errors": 0,
+    "seconds": 2.3630216999999902
+  }
+]

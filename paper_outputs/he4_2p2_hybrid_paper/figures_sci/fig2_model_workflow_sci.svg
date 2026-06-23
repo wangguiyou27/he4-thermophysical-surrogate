@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="474.300937pt" height="116.964pt" viewBox="0 0 474.300937 116.964" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-11T22:46:06.536354</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 116.964 
+L 474.300937 116.964 
+L 474.300937 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 61.603669 65.66148 
+L 111.474919 65.66148 
+L 111.474919 28.73844 
+L 61.603669 28.73844 
+z
+" clip-path="url(#p9cf7be603f)" style="fill: #eef5ff; stroke: #2f5f8f; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 125.438869 65.66148 
+L 175.310119 65.66148 
+L 175.310119 28.73844 
+L 125.438869 28.73844 
+z
+" clip-path="url(#p9cf7be603f)" style="fill: #eef8f0; stroke: #4f8a5b; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 189.274069 65.66148 
+L 239.145319 65.66148 
+L 239.145319 28.73844 
+L 189.274069 28.73844 
+z
+" clip-path="url(#p9cf7be603f)" style="fill: #fff6e8; stroke: #c47c2c; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 253.109269 65.66148 
+L 302.980519 65.66148 
+L 302.980519 28.73844 
+L 253.109269 28.73844 
+z
+" clip-path="url(#p9cf7be603f)" style="fill: #f5f1ff; stroke: #6f5a9a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 316.944469 65.66148 
+L 366.815719 65.66148 
+L 366.815719 28.73844 
+L 316.944469 28.73844 
+z
+" clip-path="url(#p9cf7be603f)" style="fill: #fff0f0; stroke: #b44a4a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 380.779669 65.66148 
+L 430.650919 65.66148 
+L 430.650919 28.73844 
+L 380.779669 28.73844 
+z
+" clip-path="url(#p9cf7be603f)" style="fill: #eef8f8; stroke: #407878; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 8px 'Arial'" transform="translate(67.203044 44.99046)">REFPROP</text>
+    <text style="font: 8px 'Arial'" transform="translate(70.532419 53.45196)">sampling</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 117.466287 47.19996 
+Q 118.456173 47.19996 118.551632 47.19996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 115.151632 45.49996 
+L 118.551632 47.19996 
+L 115.151632 48.89996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font: 8px 'Arial'" transform="translate(127.026369 44.933835)">Single-phase</text>
+    <text style="font: 8px 'Arial'" transform="translate(137.480744 53.606085)">filtering</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 181.301487 47.19996 
+Q 182.291373 47.19996 182.386832 47.19996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 178.986832 45.49996 
+L 182.386832 47.19996 
+L 178.986832 48.89996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font: 8px 'Arial'" transform="translate(200.425944 44.99046)">Feature</text>
+    <text style="font: 8px 'Arial'" transform="translate(193.305319 53.45196)">engineering</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 245.136687 47.19996 
+Q 246.126573 47.19996 246.222032 47.19996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 242.822032 45.49996 
+L 246.222032 47.19996 
+L 242.822032 48.89996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font: 8px 'Arial'" transform="translate(252.038644 45.037335)">Critical-feature</text>
+    <text style="font: 8px 'Arial'" transform="translate(269.599269 53.498835)">ANN</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 308.971887 47.19996 
+Q 309.961773 47.19996 310.057232 47.19996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 306.657232 45.49996 
+L 310.057232 47.19996 
+L 306.657232 48.89996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font: 8px 'Arial'" transform="translate(320.313219 44.99046)">Local hybrid</text>
+    <text style="font: 8px 'Arial'" transform="translate(324.318844 53.54571)">correction</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 372.807087 47.19996 
+Q 373.796973 47.19996 373.892432 47.19996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 370.492432 45.49996 
+L 373.892432 47.19996 
+L 370.492432 48.89996 
+" style="fill: none; stroke: #374151; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font: 8px 'Arial'" transform="translate(380.594044 44.99046)">Eight-property</text>
+    <text style="font: 8px 'Arial'" transform="translate(388.372794 53.54571)">prediction</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #374151; font: 7.6px 'Arial'; text-anchor: middle" x="237.150469" y="95.32026" transform="rotate(-0 237.150469 95.32026)">Inputs: T, P, phase code and critical features; outputs: density, entropy, enthalpy, sound speed, Cv, Cp, viscosity and thermal conductivity.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9cf7be603f">
+   <rect x="37.665469" y="7.2" width="398.97" height="102.564"/>
+  </clipPath>
+ </defs>
+</svg>

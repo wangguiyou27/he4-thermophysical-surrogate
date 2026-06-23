@@ -1,0 +1,14 @@
+﻿name,points,errors,seconds
+cold_liquid_zero,117600,0,9.9846316
+near_critical_low_pressure,109200,0,9.327319699999999
+critical_cp_peak_dense,135200,0,10.542200299999998
+supercritical_critical_ridge,92400,0,7.391984200000003
+supercritical_entropy_zero,187200,0,14.493167900000003
+very_low_density_gas,93600,0,7.124542599999998
+low_pressure_cold_vapor,52800,0,4.092929599999998
+lambda_liquid_zero_enthalpy,110400,0,8.515034700000001
+low_temperature_liquid_density_enthalpy,41600,0,3.238427399999992
+near_tcrit_liquid_entropy,57200,0,4.4426314000000104
+lambda_low_pressure_liquid_density,39600,0,3.000182300000006
+mid_temperature_low_pressure_liquid_enthalpy,26400,0,2.0256291999999974
+high_temperature_pcrit_gas_density,31200,0,2.3999398000000127

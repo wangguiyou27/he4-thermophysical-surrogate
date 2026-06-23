@@ -1,0 +1,46 @@
+{
+  "name": "he3_existing_alldata",
+  "data_path": "../../alldata.csv",
+  "skip_rows": [1],
+  "input_cols": ["Temperature", "Pressure"],
+  "target_cols": [
+    "Density",
+    "Enthalpy",
+    "Entropy",
+    "Cv",
+    "Cp",
+    "Speed of sound",
+    "Thermal conductivity",
+    "Viscosity"
+  ],
+  "log_input_cols": ["Temperature", "Pressure"],
+  "log_target_cols": [
+    "Density",
+    "Enthalpy",
+    "Entropy",
+    "Cv",
+    "Cp",
+    "Speed of sound",
+    "Thermal conductivity",
+    "Viscosity"
+  ],
+  "test_size": 0.2,
+  "val_size": 0.1,
+  "seed": 42,
+  "batch_size": 256,
+  "epochs": 500,
+  "learning_rate": 0.001,
+  "weight_decay": 0.00001,
+  "hidden_layers": [256, 512, 512, 256, 128],
+  "dropout": 0.05,
+  "relative_error_floor_quantile": 0.01,
+  "temperature_regions": {
+    "quantum_degenerate": [0.2, 1.0],
+    "superfluid_near": [1.0, 3.0],
+    "low_liquefaction": [3.0, 10.0],
+    "low_transition": [10.0, 50.0],
+    "middle": [50.0, 150.0],
+    "high": [150.0, 350.0],
+    "ultra_high": [350.0, 600.0]
+  }
+}

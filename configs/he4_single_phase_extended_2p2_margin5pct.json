@@ -1,0 +1,65 @@
+{
+  "name": "he4_single_phase_extended_2p2_300K_margin5pct",
+  "data_path": "../data/he4data_single_phase_extended_2p2_300K_margin5pct.csv",
+  "skip_rows": [],
+  "input_cols": ["Temperature (K)", "Pressure (MPa)"],
+  "target_cols": [
+    "Density (kg/m^3)",
+    "Entropy (kJ/(kg·K))",
+    "Enthalpy (kJ/kg)",
+    "Speed of Sound (m/s)",
+    "Cv (kJ/(kg·K))",
+    "Cp (kJ/(kg·K))",
+    "Viscosity (μPa·s)",
+    "Thermal Conductivity (mW/(m·K))"
+  ],
+  "log_input_cols": ["Temperature (K)", "Pressure (MPa)"],
+  "log_target_cols": [
+    "Density (kg/m^3)",
+    "Speed of Sound (m/s)",
+    "Cv (kJ/(kg·K))",
+    "Cp (kJ/(kg·K))",
+    "Viscosity (μPa·s)",
+    "Thermal Conductivity (mW/(m·K))"
+  ],
+  "shifted_log_target_offsets": {
+    "Entropy (kJ/(kg·K))": 3.0,
+    "Enthalpy (kJ/kg)": 10.0
+  },
+  "test_size": 0.2,
+  "val_size": 0.1,
+  "seed": 42,
+  "batch_size": 512,
+  "epochs": 420,
+  "learning_rate": 0.0008,
+  "weight_decay": 0.00001,
+  "hidden_layers": [384, 768, 768, 384, 192],
+  "dropout": 0.04,
+  "relative_error_floor_quantile": 0.01,
+  "temperature_regions": {
+    "near_lambda": [2.2, 3.0],
+    "low_liquid_vapor": [3.0, 5.5],
+    "low": [5.5, 20.0],
+    "transition": [20.0, 80.0],
+    "middle": [80.0, 200.0],
+    "high": [200.0, 300.0]
+  },
+  "temperature_region_weights": {
+    "near_lambda": 5.0,
+    "low_liquid_vapor": 4.0,
+    "low": 2.5,
+    "transition": 1.5,
+    "middle": 1.0,
+    "high": 1.0
+  },
+  "target_loss_weights": {
+    "Density (kg/m^3)": 2.5,
+    "Entropy (kJ/(kg·K))": 3.0,
+    "Enthalpy (kJ/kg)": 2.0,
+    "Speed of Sound (m/s)": 1.2,
+    "Cv (kJ/(kg·K))": 0.8,
+    "Cp (kJ/(kg·K))": 0.8,
+    "Viscosity (μPa·s)": 1.0,
+    "Thermal Conductivity (mW/(m·K))": 1.5
+  }
+}

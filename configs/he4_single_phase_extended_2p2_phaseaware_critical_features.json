@@ -1,0 +1,102 @@
+{
+  "name": "he4_single_phase_extended_2p2_phaseaware_critical_features",
+  "data_path": "../data/he4data_single_phase_extended_2p2_critical_features.csv",
+  "skip_rows": [],
+  "input_cols": [
+    "Temperature (K)",
+    "Pressure (MPa)",
+    "phase_code",
+    "reduced_temperature",
+    "reduced_pressure",
+    "critical_distance",
+    "inverse_critical_distance",
+    "abs_reduced_temperature_offset",
+    "abs_reduced_pressure_offset"
+  ],
+  "target_cols": [
+    "Density (kg/m^3)",
+    "Entropy (kJ/(kg·K))",
+    "Enthalpy (kJ/kg)",
+    "Speed of Sound (m/s)",
+    "Cv (kJ/(kg·K))",
+    "Cp (kJ/(kg·K))",
+    "Viscosity (μPa·s)",
+    "Thermal Conductivity (mW/(m·K))"
+  ],
+  "log_input_cols": [
+    "Temperature (K)",
+    "Pressure (MPa)",
+    "critical_distance",
+    "abs_reduced_temperature_offset",
+    "abs_reduced_pressure_offset"
+  ],
+  "log_target_cols": [
+    "Density (kg/m^3)",
+    "Speed of Sound (m/s)",
+    "Cv (kJ/(kg·K))",
+    "Cp (kJ/(kg·K))",
+    "Viscosity (μPa·s)",
+    "Thermal Conductivity (mW/(m·K))"
+  ],
+  "shifted_log_target_offsets": {
+    "Entropy (kJ/(kg·K))": 3.0,
+    "Enthalpy (kJ/kg)": 20.0
+  },
+  "test_size": 0.2,
+  "val_size": 0.1,
+  "seed": 42,
+  "batch_size": 1024,
+  "epochs": 280,
+  "patience": 60,
+  "learning_rate": 0.00045,
+  "weight_decay": 0.000004,
+  "hidden_layers": [512, 768, 768, 384, 192],
+  "dropout": 0.015,
+  "relative_error_floor_quantile": 0.01,
+  "temperature_regions": {
+    "near_lambda": [2.2, 3.0],
+    "low_liquid_vapor": [3.0, 5.5],
+    "low": [5.5, 20.0],
+    "transition": [20.0, 80.0],
+    "middle": [80.0, 200.0],
+    "high": [200.0, 300.0]
+  },
+  "temperature_region_weights": {
+    "near_lambda": 5.5,
+    "low_liquid_vapor": 4.5,
+    "low": 2.5,
+    "transition": 1.5,
+    "middle": 1.0,
+    "high": 1.0
+  },
+  "conditional_sample_weights": [
+    {
+      "name": "near_lambda_liquid_enthalpy",
+      "bounds": {
+        "Temperature (K)": [2.2, 2.45],
+        "Pressure (MPa)": [0.85, 1.35],
+        "phase_code": [4, 4]
+      },
+      "weight": 3.0
+    },
+    {
+      "name": "critical_cp_peak",
+      "bounds": {
+        "Temperature (K)": [5.15, 5.35],
+        "Pressure (MPa)": [0.22, 0.27],
+        "phase_code": [3, 3]
+      },
+      "weight": 6.0
+    }
+  ],
+  "target_loss_weights": {
+    "Density (kg/m^3)": 2.5,
+    "Entropy (kJ/(kg·K))": 3.5,
+    "Enthalpy (kJ/kg)": 4.0,
+    "Speed of Sound (m/s)": 1.2,
+    "Cv (kJ/(kg·K))": 1.0,
+    "Cp (kJ/(kg·K))": 3.0,
+    "Viscosity (μPa·s)": 1.0,
+    "Thermal Conductivity (mW/(m·K))": 1.3
+  }
+}

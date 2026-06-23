@@ -1,0 +1,5 @@
+﻿phase_region,n_samples,phase_label,fraction_pct
+single_phase_gas,166642,Single-phase gas,46.47171684495856
+supercritical,78992,Supercritical,22.028623378361797
+subcooled_liquid,57807,Subcooled liquid,16.12072908184323
+superheated_vapor,55147,Superheated vapor,15.378930694836415
